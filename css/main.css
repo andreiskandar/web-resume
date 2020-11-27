@@ -1856,8 +1856,8 @@ footer span {
   color: #007aed;
 }
 
-.contact-address__item .text h2 {
-  font-size: 14.4px;
+.contact-address__item .text h2, .contact-address__item .text h2 a {
+  font-size: 12.8px;
   line-height: 2;
   color: #222222;
 }
