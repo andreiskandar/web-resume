@@ -12,10 +12,9 @@ $('#about_me-link').click(function () {
     },
     1000
   );
-  // document.querySelector('.menu').classList.toggle('open');
 });
 
-$('#resume-link, #resume-btn').click(function () {
+$('#resume-link').click(function () {
   document.querySelector('.menu').classList.toggle('open');
   document.querySelector('.navBtn').classList.toggle('open');
   $('html, body').animate(
@@ -24,10 +23,27 @@ $('#resume-link, #resume-btn').click(function () {
     },
     1000
   );
-  // document.querySelector('.menu').classList.toggle('open');
 });
 
-$('#contact-link, #contact-btn').click(function () {
+$('#resume-btn').click(function () {
+  $('html, body').animate(
+    {
+      scrollTop: $('#resume').offset().top - 112,
+    },
+    1000
+  );
+});
+
+$('#contact-btn').click(function () {
+  $('html, body').animate(
+    {
+      scrollTop: $('#contact').offset().top - 112,
+    },
+    1000
+  );
+});
+
+$('#contact-link').click(function () {
   document.querySelector('.menu').classList.toggle('open');
   document.querySelector('.navBtn').classList.toggle('open');
   $('html, body').animate(
