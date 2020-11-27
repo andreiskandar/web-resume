@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leven-Resume</title>
+    <title>Andre Iskandar</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -12,6 +12,7 @@
     <!-- <link rel="stylesheet" href="plugin/owl-carousel/assets/owl.carousel.css" /> -->
     <link rel="stylesheet" href="plugin/owl-carousel/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="plugin/owl-carousel/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
     <link rel="stylesheet" href="plugin/linecons/style.css" />
     <link rel="stylesheet" href="css/main.css" />
     <script
@@ -26,8 +27,8 @@
     <div class="overlay"></div>
     <header>
       <div class="logo">
-        <div class="logo-div">A</div>
-        <div class="logo-txt"><span>Alex</span>smith</div>
+        <div class="logo-div">AI</div>
+        <div class="logo-txt"><span>Andre</span>Iskandar</div>
       </div>
       <div class="navBtn">
         <span></span>
@@ -37,36 +38,27 @@
       <nav class="menu">
         <ul class="menu-list">
           <li>
-            <a href="index.html" class="menu-list__item active"
-              >About Me <i class="fas fa-chevron-down"></i
+            <a href="#index" class="menu-list__item active" id="about_me-link"
+              >About Me </i
             ></a>
-            <ul class="menu-list-sub">
-              <li>
-                <a href="#" class="menu-list-sub__item">About-One</a>
-              </li>
-              <li>
-                <a href="#" class="menu-list-sub__item">About-One</a>
-              </li>
-            </ul>
           </li>
           <li>
-            <a href="resume.html" class="menu-list__item">Resume</a>
+            <a href="#resume" class="menu-list__item" id='resume-link'>Resume</a>
           </li>
           <li>
-            <a href="works.html" class="menu-list__item">Works</a>
+            <a href="#portfolio" class="menu-list__item" id="portfolio-link">Portfolio</a>
           </li>
           <li>
-            <a href="blogs.html" class="menu-list__item">Blogs</a>
+            <a href="#skills" class="menu-list__item" id="skills-link">Skills</a>
           </li>
           <li>
-            <a href="contact.html" class="menu-list__item">Contact</a>
+            <a href="#contact" class="menu-list__item" id='contact-link'>Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <div class="page-con">
- 
+    <div id="index" class="page-con">
       <section class="home">
         <div class="home-content">
           <div class="home-content--left">
@@ -78,19 +70,16 @@
             </div>
           </div>
           <div class="home-content--right">
-            <h4>Web Design</h4>
-            <h2>Alex Smith</h2>
+            <h4>Full Stack Developer</h4>
+            <h2>Andre Iskandar</h2>
             <p>
-              Fusce tempor magna mi, non egestas velit ultricies nec. Aenean
-              convallis, risus non condimentum gravida, odio mauris ullamcorper
-              felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia
-              urna, a placerat sapien pretium eu.
+              I am a Full-stack Web Developer with a passion for problem-solving and designing software with efficient and scalable solutions. I love working with all aspects of programming, from front-end with React to the back-end with NodeJS, or Ruby on Rails using test driven development approach. I enjoy configuring services and workflows. I am eager to learn new programming languages and keen on taking opportunities to work with new technologies and frameworks.
             </p>
-            <div class="home-content--right__btns">
-              <a href="#" class="home-content--right__btn btn-left"
-                >Download CV</a
+            <div class="home-content--right__btns" >
+              <a href="#resume" class="home-content--right__btn btn-left" id="resume-btn"
+                >Resume</a
               >
-              <a href="#" class="home-content--right__btn btn-right">Contact</a>
+              <a href="#contact" class="home-content--right__btn btn-right" id="contact-btn">Contact</a>
             </div>
           </div>
         </div>
@@ -103,197 +92,508 @@
         <div class="services-content">
           <div class="services-content__service">
             <div class="icon">
-              <i class="linecons linecons-pen"></i>
+              <img src="imgs/fs.png" alt="fullstack icon">
             </div>
             <div class="text">
-              <h2>Copyright</h2>
+              <h2>Full-Stack Developer</h2>
               <p>
-                Mauris neque libero, aliquet vel mollis nec, euismod sed tellus.
-                Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor
-                vitae lacinia maximus, risus velit vehicula odio, a tincidunt
-                turpis turpis tempus ex.
               </p>
             </div>
           </div>
           <div class="services-content__service">
             <div class="icon">
-              <i class="linecons linecons-shop"></i>
+              <img src="imgs/fe.png" alt="frontend icon">
             </div>
             <div class="text">
-              <h2>Ecommerce</h2>
+              <h2>Front-End Developer</h2>
               <p>
-                Mauris neque libero, aliquet vel mollis nec, euismod sed tellus.
-                Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor
-                vitae lacinia maximus, risus velit vehicula odio, a tincidunt
-                turpis turpis tempus ex.
               </p>
             </div>
           </div>
           <div class="services-content__service">
             <div class="icon">
-              <i class="linecons linecons-display"></i>
+                <img src="imgs/be.png" alt="backend icon">
             </div>
             <div class="text">
-              <h2>Web Design</h2>
+              <h2>Back-End Developer</h2>
               <p>
-                Mauris neque libero, aliquet vel mollis nec, euismod sed tellus.
-                Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor
-                vitae lacinia maximus, risus velit vehicula odio, a tincidunt
-                turpis turpis tempus ex.
               </p>
             </div>
           </div>
           <div class="services-content__service">
             <div class="icon">
-              <i class="linecons linecons-megaphone"></i>
+              <img src="imgs/se.png" alt="sftengineer icon">
             </div>
             <div class="text">
-              <h2>Marketing</h2>
+              <h2>Software Developer</h2>
               <p>
-                Mauris neque libero, aliquet vel mollis nec, euismod sed tellus.
-                Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor
-                vitae lacinia maximus, risus velit vehicula odio, a tincidunt
-                turpis turpis tempus ex.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="clients">
+      <section class="clients recommendations">
         <div class="section-header">
-          <span>Clients</span>
+          <span>Recommendations</span>
         </div>
         <div class="clients-content">
-          <div class="owl-carousel owl-theme slider">
-            <div class="slider-item">
-              <img src="imgs/client-1.png" alt="">
+          <div class="testimonials owl-carousel owl-loaded owl-drag" data-mobile-items="1" data-tablet-items="2" data-items="2">
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item">
+                  <div class="testimonial-item">
+                
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <!-- Picture -->
+                      <div class="testimonial-picture">
+                        <img src="/imgs/Andrew.jpeg" alt="Andrew Llyod">
+                      </div>
+                      <!-- /Picture -->
+                
+                      <!-- Testimonial Text -->
+                      <div class="testimonial-text">
+                        <p>
+                          I had the privilege of working with Andre during a mid-term project and also for some pair programming projects during the Lighthouse Labs web developement bootcamp. Andre was an outstanding worker with a keen eye for detail and an impressive level of technical depth when it came to problem solving. He is a wonderful team worker with a first class attitude to work and supporting his peers alike. Any employer would be gaining a huge asset adding Andre to their team.
+                          
+                        </p>
+                          <a href="javascript:void()" class="seemore-text">See more <a href="https://www.linkedin.com/in/andreiskandar/" class="li-icon"><i class="fab fa-linkedin"></i></a></a>
+                      
+                      </div>
+                      <!-- /Testimonial Text -->
+                
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <h5 class="testimonial-author">Andrew Lloyd</h5>
+                        <p class="testimonial-firm">Fellow Graduate of Lighthouse Labs</p>
+                      </div>
+                      <!-- /Testimonial author information -->
+                
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                
+                      <div class="testimonial-icon-big">
+                        <i class="fa fa-quote-right"></i>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="testimonial-item">
+                
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <!-- Picture -->
+                      <div class="testimonial-picture">
+                        <img src="/imgs/Thai Do.png" alt="Thai Do">
+                      </div>
+                      <!-- /Picture -->
+                
+                      <!-- Testimonial Text -->
+                      <div class="testimonial-text">
+                        <p>It is my pleasure to strongly recommend Andre Iskandar for a position as a junior web developer. As a fellow full stack web developer, I've worked alongside Andre for the past three months. During our time together, Andre displayed great adaptability and perseverance when it came to learning new programming languages like Javascript, React JS, Ruby on Rails. He would stick at it and review his work to make sure he understood the subject material. Allowing his understanding of programming languages and the tools of the trade to grow far more than that of his peers.<br/><br /> My first experience with Andre's perseverance came not long after we started our boot camp. It was when we had to build our first application called "Tiny App". At that time, Andre's experience with frameworks like Express, Node and HTML5 was limited, but he worked extra hours to learn/understand how these languages/frameworks were implemented. Andre even went beyond the scope of the school work and offered to help myself and his fellow classmates to understand the concepts that were being taught.<br/><br /> It was not just his technical skills that impress me, however. Andre was a joy to work with because of his amazingly positive attitude, eagerness to solve any problems that came up and his sheer enthusiasm to help his fellow cohorts/teammates.<br/><br /> Not only has he been extremely patient/supportive and a team player, but he's also become a close personal friend. Andre's skills and leadership qualities would make him an invaluable addition to your company and development team. His can-do attitude and team-building skills were also necessary and valued not just by myself, but by his peers, who often relied on him to get their assignments done.</p>
+                        <a href="javascript:void()" class="seemore-text">See more <a href="https://www.linkedin.com/in/andreiskandar/" class="li-icon"><i class="fab fa-linkedin"></i></a></a>
+                      </div>
+                      <!-- /Testimonial Text -->
+                
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <h5 class="testimonial-author">Thai Do </h5>
+                        <p class="testimonial-firm">Fellow Graduate of Lighthouse Labs</p>
+                      </div>
+                      <!-- /Testimonial author information -->
+                
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                
+                      <div class="testimonial-icon-big">
+                        <i class="fa fa-quote-right"></i>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="testimonial-item">
+                
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <!-- Picture -->
+                      <div class="testimonial-picture">
+                        <img src="/imgs//David.png" alt="David Ramalho">
+                      </div>
+                      <!-- /Picture -->
+                
+                      <!-- Testimonial Text -->
+                      <div class="testimonial-text">
+                        <p>What can I say about Andre? Hard-working, intelligent, stellar attention to detail (so much so that we nicknamed him "Chief Picky Officer"), and a great person to work with. We worked together for two weeks including weekends, and I would gladly do it again!<br/><br /> We had long work days, often stretching beyond 12hrs in a day, and Andre was always there, ready to go the next morning before we even had had a chance to grab our morning coffee. All I am trying to say is, if you are ever to have a concern
+                        about someone's work ethic, that person should not be Andre.<br/><br /> He was an invaluable part of our team, coming up with clever ideas, helping out when we needed it, and going above and beyond to make sure our project was a success. If I were ever able to choose my own development team, Andre would be a part of it.</p>
+                        <a href="javascript:void()" class="seemore-text">...See more <a href="https://www.linkedin.com/in/andreiskandar/" class="li-icon"><i class="fab fa-linkedin"></i></a></a>
+                      </div>
+                      <!-- /Testimonial Text -->
+                
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <h5 class="testimonial-author">David Ramalho</h5>
+                        <p class="testimonial-firm">Fellow Graduate of Lighthouse Labs</p>
+                      </div>
+                      <!-- /Testimonial author information -->
+                
+                      <div class="testimonial-icon">
+                        <i class="fa fa-quote-left"></i>
+                      </div>
+                
+                      <div class="testimonial-icon-big">
+                        <i class="fa fa-quote-right"></i>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="slider-item">
-              <img src="imgs/client-2.png" alt="">
-            </div>
-            <div class="slider-item">
-              <img src="imgs/client-3.png" alt="">
-            </div>
-            <div class="slider-item">
-              <img src="imgs/client-4.png" alt="">
-            </div>
-            <div class="slider-item">
-              <img src="imgs/client-5.png" alt="">
-            </div>
-            
-        </div>
+          </div>
         </div>
       </section>
-
-      <section class="funfacts">
-        <div class="section-header">
-          <span>Funfacts</span>
+    <section class="funfacts">
+      <div class="section-header">
+        <span>Interests & Hobbies</span>
+      </div>
+      <div class="funfacts-content">
+        <div class="funfacts-content__item">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+            <!-- <i class="linecons linecons-heart"></i> -->
+          </div>
+          <h3>Investing</h3>
+          <span></span>
         </div>
-        <div class="funfacts-content">
-          <div class="funfacts-content__item">
-            <div class="icon">
-              <i class="linecons linecons-heart"></i>
-            </div>
-            <h3>Happy Clients</h3>
-            <span>578</span>
+        <div class="funfacts-content__item">
+          <div class="icon">
+            <i class="fas fa-plane-departure"></i>
           </div>
-          <div class="funfacts-content__item">
-            <div class="icon">
-              <i class="linecons linecons-clock"></i>
-            </div>
-            <h3>Working Hours</h3>
-            <span>4,780</span>
-          </div>
-          <div class="funfacts-content__item">
-            <div class="icon">
-              <i class="linecons linecons-star"></i>
-            </div>
-            <h3>Awards Won</h3>
-            <span>15</span>
-          </div>
-          <div class="funfacts-content__item">
-            <div class="icon">
-              <i class="linecons linecons-cup"></i>
-            </div>
-            <h3>Coffee Consumed</h3>
-            <span>1,286</span>
-          </div>
+          <h3>Travelling</h3>
+          <span></span>
         </div>
-      </section>
-
-      <section class="pricing">
-        <div class="section-header">
-          <span>Hire Me</span>
+        <div class="funfacts-content__item">
+          <div class="icon">
+            <i class="fas fa-hiking"></i>
+          </div>
+          <h3>Hiking</h3>
+          <span></span>
         </div>
-
-        <div class="pricing-content">
-          <div class="pricing-content__item">
-            <div class="pricing-content--wrap">
-              <div class="type">
-                <span>Silver</span>
-              </div>
-              <div class="amount"><span>$65</span><sub>/ mon</sub></div>
-              <div class="btn-div">
-                <a href="#" class="btn">Free Trial</a>
-              </div>
-              <ul class="services-list">
-                <li class="service">Lorem ipsum dolor</li>
-                <li class="service">Pellentesque scelerisque</li>
-                <li class="service">Morbi eu sagittis</li>
-              </ul>
-            </div>
+        <div class="funfacts-content__item">
+          <div class="icon">
+            <i class="fas fa-futbol"></i>
           </div>
-          <div class="pricing-content__item">
-            <div class="pricing-content--wrap recommanded selected">
-              <div class="type">
-                <span>Gold</span>
-              </div>
-              <div class="amount"><span>$128</span><sub>/ mon</sub></div>
-              <div class="btn-div">
-                <a href="#" class="btn">Free Trial</a>
-              </div>
-              <ul class="services-list">
-                <li class="service">Lorem ipsum dolor</li>
-                <li class="service">Pellentesque scelerisque</li>
-                <li class="service">Morbi eu sagittis</li>
-                <li class="service">Lorem, ipsum dolor.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="pricing-content__item">
-            <div class="pricing-content--wrap recommanded">
-              <div class="type">
-                <span>Platinum</span>
-              </div>
-              <div class="amount"><span>$256</span><sub>/ mon</sub></div>
-              <div class="btn-div">
-                <a href="#" class="btn">Free Trial</a>
-              </div>
-              <ul class="services-list">
-                <li class="service">Lorem ipsum dolor</li>
-                <li class="service">Pellentesque scelerisque</li>
-                <li class="service">Morbi eu sagittis Lorem, ipsum.</li>
-                <li class="service">Morbi eu Lorem ipsum sit.</li>
-                <li class="service">Morbi eu sagittis Lorem.</li>
-              </ul>
-            </div>
-          </div>
+          <h3>Soccer</h3>
+          <span></span>
         </div>
-      </section>
+      </div>
+    </section>
 
-    
     </div>
+    <div id="portfolio" class="page" >
+      <div class="page-header">
+        <h2>Portfolio</h2>
+        <span></span>
+      </div>
+      <div class="page-con">
+        <div class="works-list">
+          <figure class="works-list__item">
+            <div class="title">Shift Scheduler App</div>
+            <a href="https://adtime-scheduling.herokuapp.com/">
+              <img src="imgs/1.jpg" alt="Works">
+              <div class="details">
+                <span>React-Express-PG</span>
+                <span><i class="fab fa-github"></i></span>
+              </div>
+            </a>
+          </figure>
+          <figure class="works-list__item">
+            <div class="title">E-Commerce Web App</div>
+            <a href="https://github.com/andreiskandar/jungle">
+              <img src="imgs/2.png" alt="Works">
+              <div class="details">
+                <span>Ruby on Rails</span>
+                <span><i class="fab fa-github"></i></span>
+              </div>
+            </a>
+          </figure>
+          <figure class="works-list__item">
+            <div class="title">Appointment Scheduler</div>
+            <a href="https://romantic-meninsky-7e0882.netlify.app/">
+              <img src="imgs/3.png" alt="Works">
+              <div class="details">
+                <span>React-Express-PG</span>
+                <span><i class="fab fa-github"></i></span>
+              </div>
+            </a>
+          </figure>
+          <figure class="works-list__item">
+            <div class="title">Quiz App</div>
+            <a href="https://github.com/andreiskandar/quiz-app">
+              <img src="imgs/4.jpg" alt="Works">
+              <div class="details">
+                <span>JQuery-Express-ElephantSQL</span>
+                <span><i class="fab fa-github"></i></span>
+              </div>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div id="resume" class="page">
+      <div class="page-header">
+        <h2>Resume</h2>
+        <span>6 Years of Professional Experience</span>
+      </div>
+      <div class="page-con">
+        <section class="qualifications">
+          <div class="edu">
+            <div class="section-header">
+              <span>Education</span>
+            </div>
+            <div class="items">
+              <div class="items--item border-bottom">
+                <div class="time">
+                  <span class="year">2020</span>
+                  <span class="university">Lighthouse Labs</span>
+                </div>
+                <h2 class="title">Diploma of Web Development</h2>
+                <p>
+                  Software Development, Test-Driven Development, Ruby on Rails, JavaScript, HTML5 & CSS3, and 12 weeks of Coding Bootcamp
+                </p>
+              </div>
+              <div class="items--item border-bottom">
+                <div class="time">
+                  <span class="year">2013</span>
+                  <span class="university">University of British Columbia</span>
+                </div>
+                <h2 class="title">B.Sc. Wood Products Processing <h2 class="title">With Minor In Commerce</h2>
+              </h2>
+                <p>
+                  Understanding the merits of sustainable wood product for the use in building, manufacturing, and engineering while
+                  exploring innovative product potentials.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="exp">
+            <div class="section-header">
+              <span>Experience</span>
+            </div>
+            <div class="items">
+              <div class="items--item border-bottom">
+                <div class="time">
+                  <span class="year">2018 - 2020</span>
+                  <span class="university">CIPA Lumber</span>
+                </div>
+                <h2 class="title">Production Supervisor</h2>
+                <ul>
+                  <li class="exp-item">
+                    Provided effective leadership to unionized workforce to ensure compliance with standard operating procedure                
+                  </li>
+                  <li class="exp-item">
+                    Identified potential safety hazards and took appropriate actions to control and/or eliminate hazards
+                  </li>
+                  <li class="exp-item">
+                    Demonstrated continuous improvement by applying Lean Six Sigma principles to maximize uptime and reduce waste
+                  </li>  
+                  
+                </ul>
+              </div>
+              <div class="items--item border-bottom">
+                <div class="time">
+                  <span class="year">2014 - 2018</span>
+                  <span class="university">West Fraser Timber</span>
+                </div>
+                <h2 class="title">Planer & Sawmill Quality Control Analyst</h2>
+                <ul>
+                  <li class="exp-item">
+                    Performed quality assurance functionality pertaining to lumber grading standards
+                  </li>
+                  <li class="exp-item">
+                    Managed quality control objectives and priorities with management in analyzing opportunities to develop and implement an effective quality control program
+                  </li>
+                </ul>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+
+        <section class="certificates">
+          <div class="section-header"><span>Certificates</span></div>
+          <div class="certificates-list">
+            <div class="certificate">
+                <div class="certificate_img">
+                    <img src="imgs/client-2.png" alt="six sigma logo">
+                </div>
+                <div class="certificate_dics">
+                    <h2 class="title">Lean Six Sigma Green Belt Certificate</h2>
+                    <h4 class="certificate_id">Credential ID: Z1vCYhKEEE1</h4>
+                    <span class="date">April 2020</span>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <div class="skills-list">
+              <div class="skills-list__left">
+                <div class="section-header"><span>Technical Skills</span></div>
+                <div class="skill">
+                  <h2 class="skill-name">Languages: HTML, JavaScript, Ruby on Rails</h2>
+                </div>
+                <div class="skill">
+                  <h2 class="skill-name">Frameworks: React js, Node js, JQuery, AWS</h2>
+                </div>
+                <div class="skill">
+                  <h2 class="skill-name">Styling: CSS, SCSS, Modern UI, Semantic UI, Bootstrap</h2>
+                </div>
+                <div class="skill">
+                  <h2 class="skill-name">Middleware: Express js, EJS</h2>
+                </div>
+            </div>
+            <div class="skills-list__right">
+                <div class="section-header"><span>Technical Skills</span></div>
+                <div class="skill">
+                  <h2 class="skill-name">Unit Testing: Mocha, Chai, Storybook </h2>
+                </div>
+                <div class="skill">
+                  <h2 class="skill-name">Integration Testing: Jest, Poltergeist</h2>
+                </div>
+                <div class="skill">
+                  <h2 class="skill-name">Feature Testing: RSpec</h2>
+                </div>
+                <div class="skill">
+                  <h2 class="skill-name">End To End Testing: Cypress</h2>
+                </div>
+                <div class="skill">
+                  <h2 class="skill-name">Developer Tools: Chrome DevTools, Github, Heroku, Circle CI</h2>
+                </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div id="contact" class="page">
+      <div class="page-header">
+        <h2>Contact</h2>
+        <span>Get In Touch</span>
+      </div>
+      <div class="page-con">
+        <div class="mapBox">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="100%" height="200" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=burnaby&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.whatismyip-address.com/divi-discount/"></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact-address">
+            <div class="contact-address__item">
+              <div class="icon">
+                <i class="linecons linecons-phone"></i>
+              </div>
+              <div class="text">
+                <h2>778-895-6373</h2>
+                <p>
+                </p>
+              </div>
+            </div>
+            <div class="contact-address__item">
+              <div class="icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <div class="text">
+                <h2>Burnaby, BC</h2>
+                <p>
+                </p>
+              </div>
+            </div>
+            <div class="contact-address__item">
+              <div class="icon">
+                <i class="linecons linecons-mail"></i>
+              </div>
+              <div class="text">
+                <h2>andre.m.iskandar@gmail.com</h2>
+                <p>
+                </p>
+              </div>
+            </div>
+            <div class="contact-address__item">
+              <div class="icon">
+                <img src="imgs/linkedin.png">
+              </div>
+              <div class="text">
+                <h2>https://www.linkedin.com/in/andreiskandar/</h2>
+                <p>
+                </p>
+              </div>
+            </div>
+            <div class="contact-address__item">
+              <div class="icon">
+                <img src="imgs/github.png">
+              </div>
+              <div class="text">
+                <h2>https://github.com/andreiskandar/</h2>
+                <p>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <!-- <div class="contact-form">
+            <div class="section-header"><span>How Can I Help You?</span></div>
+            <form action="#" class="form">
+              <div class="form-group__top">
+                <div class="form-group__top--left">
+                  <div class="form-group">
+                    <input type="text" placeholder="Full Name" />
+                  </div>
+                  <div class="form-group">
+                    <input type="email" placeholder="Email" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" placeholder="Subject" />
+                  </div>
+                </div>
+                <div class="form-group__top--right">
+                  <div class="form-group" style="grid-row: 1/4; grid-column: 2;">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group__bottom">
+                <input type="submit" value="Send Message" class="send-btn" />
+              </div>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="social">
         <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/andreiskandar/"> LinkedIn</a></li>
+          <li><a href="https://github.com/andreiskandar">Github</a></li>
+          <li><a href="https://www.instagram.com/andre_cheung/">Instagram</a></li>
         </ul>
       </div>
 
-      <span>&copy; 2020 All rights reserved. LMPixels.</span>
+      <span>&copy; 2020 All rights reserved.</span>
     </footer>
   </body>
   <script src="js/jquery-3.5.1.min.js"></script>
