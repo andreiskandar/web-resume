@@ -637,10 +637,15 @@ footer span {
 }
 
 .skills-list .skill-name {
-  font-size: .9rem;
+  font-size: 14px;
   font-weight: 600;
   color: #666666;
   margin-bottom: 5px;
+}
+
+.skills-list .skill-name .info{
+  /* font-size: 12px; */
+  font-weight: 300;
 }
 
 .works-list {
